@@ -180,6 +180,20 @@ a {
         padding-left: calc(var(--nav-width) + 188px)
     }
 }
+
+/* SearchBar */
+
+#myInput {
+    background-image: url('../scr/icons/search_FILL0_wght400_GRAD0_opsz48.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd; 
+    margin-bottom: 12px; 
+}
+
 /* Catalogo */
 
 .categorias{
@@ -187,6 +201,23 @@ a {
     display: flex;
     flex-direction: column;
     height: fit-content;
+}
+.categorias-menu{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+}
+.categorias-menu a{
+    text-decoration: none;
+    color: var(--first-color);
+}
+.categoria-botao {
+    font-size: 16px;
+    border-radius: 8px;
+    border-color: var(--first-color);
+    background-color: var(--first-color-light);
 }
 .multiple-items{
     padding: 1em;
@@ -205,4 +236,12 @@ a {
 .produto img{
     height: 160px;
     width: auto;
+}
+#back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    height: auto;
+    width: fit-content;
+    font-size: 12px;
 }
