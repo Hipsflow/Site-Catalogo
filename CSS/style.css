@@ -223,7 +223,7 @@ a {
     padding: 1em;
     display: flex;
     flex-direction: row;
-    background-color: var(--first-color-light);
+    background-color: rgb(235, 232, 232);
     height: 260px;
     width: 100%;
 }
@@ -233,15 +233,28 @@ a {
     width: fit-content;
     padding: 0 5px;
 }
+.produto h5 {
+    background-color: var(--white-color);
+    height: fit-content;
+    width: fit-content;
+    padding: 0 5px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+}
 .produto img{
     height: 160px;
     width: auto;
 }
-#back-to-top {
+#btn-back-to-top {
     position: fixed;
-    bottom: 50px;
-    right: 50px;
-    height: auto;
-    width: fit-content;
+    bottom: 20px;
+    right: 20px;
+    display: none;
     font-size: 12px;
+}
+#whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 100px;
 }
