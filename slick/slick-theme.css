@@ -27,7 +27,7 @@
 
     display: block;
 
-    width: 20px;
+    width: 18px;
     height: 20px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
@@ -36,19 +36,19 @@
 
     cursor: pointer;
 
-    color: transparent;
-    border: none;
-    outline: none;
-    background: transparent;
+    color: #76007a;
+    border: #76007a;
+    outline: #76007a;
+    background: #eaa3f8;
 }
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
 .slick-next:focus
 {
-    color: transparent;
+    color: #76007a;
     outline: none;
-    background: transparent;
+    background: #eaa3f8;
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,
@@ -60,7 +60,7 @@
 .slick-prev.slick-disabled:before,
 .slick-next.slick-disabled:before
 {
-    opacity: .25;
+    opacity: 1;
 }
 
 .slick-prev:before,
