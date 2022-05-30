@@ -5,7 +5,7 @@
     --nav-width: 68px;
     --first-color: #76007a;
     --first-color-light: #eaa3f8;
-    --white-color: #F7F6FB;
+    --white-color: #ffffff;
     --body-font: 'Nunito', sans-serif;
     --normal-font-size: 1rem;
     --z-fixed: 100
@@ -150,7 +150,7 @@ a {
 @media screen and (min-width: 768px) {
     body {
         margin: calc(var(--header-height) + 1rem) 0 0 0;
-        padding-left: calc(var(--nav-width) + 2rem)
+        padding-left: calc(var(--nav-width) + 2rem  )  
     }
 
     .header {
@@ -190,11 +190,17 @@ a {
     width: 100%;
     font-size: 16px;
     padding: 12px 20px 12px 40px;
-    border: 1px solid #ddd; 
+    border: 1px solid rgb(255, 255, 255); 
     margin-bottom: 12px; 
 }
 
 /* Catalogo */
+
+#logo{
+    height: 112px;
+    margin: 15px;
+    padding: 5px;
+}
 
 .categorias{
     margin: 1em 0;
@@ -208,6 +214,7 @@ a {
     flex-direction: row;
     justify-content: center;
     padding: 5px;
+    font-size: larger;
 }
 .categorias-menu a{
     text-decoration: none;
@@ -265,4 +272,12 @@ a {
 .buttons {
     display: flex;
     justify-content: space-around;
+}
+.footer{
+    background-color: #76007a;
+    color: #ffffff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }

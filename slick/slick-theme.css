@@ -36,19 +36,19 @@
 
     cursor: pointer;
 
-    color: #76007a;
-    border: #76007a;
-    outline: #76007a;
-    background: #eaa3f8;
+    color: transparent;
+    border: transparent;
+    outline: transparent;
+    background: transparent;
 }
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
 .slick-next:focus
 {
-    color: #76007a;
+    color: transparent;
     outline: none;
-    background: #eaa3f8;
+    background: none;
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,

@@ -43,6 +43,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
         infinite: false,
         slidesToShow: 4,
         slidesToScroll: 5,
+        prevArrow: '<button class="slide-arrow prev-arrow" style="border: 1px; background-color: white;"><img src="../scr/icons/arrow-left.svg"></button>',
+        nextArrow: '<button class="slide-arrow next-arrow" style="border: 1px; background-color: white;"><img src="../scr/icons/arrow-right.svg"></button>',
         responsive: [
             {
               breakpoint: 1024,
@@ -81,8 +83,8 @@ window.onscroll = function () {
 
 function scrollFunction() {
   if (
-    document.body.scrollTop > 40 ||
-    document.documentElement.scrollTop > 40
+    document.body.scrollTop > 400 ||
+    document.documentElement.scrollTop > 400
   ) {
     mybutton.style.display = "block";
   } else {
